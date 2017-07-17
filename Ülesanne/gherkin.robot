@@ -8,7 +8,7 @@ Looking for the bus time
     Given browser is opened to Home Page
     When User clicks on the button "newer version"
     Then The User is on the newer version and he clicks on a bus number "18" that he want's to ride
-    Then User checks if any bus goes at "09:00"
+    Then User checks if any bus goes at "09:17"
 
 
 
@@ -19,6 +19,6 @@ User clicks on the button "newer version"
     Click on a new version
 The User is on the newer version and he clicks on a bus number "18" that he want's to ride
     My Bus
-Then User checks if any bus goes at "09:00"
+Then User checks if any bus goes at "09:17"
     Check for certain bus time
 
