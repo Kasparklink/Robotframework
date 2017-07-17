@@ -8,7 +8,8 @@ Looking for the bus time
     Given browser is opened to Home Page
     When User clicks on the button "newer version"
     Then The User is on the newer version and he clicks on a bus number "18" that he want's to ride
-    Then The user can click on the map to see he's/her location from the bus stop
+    Then User checks if any bus goes at "09:00"
+
 
 
 *** Keywords ***
@@ -18,5 +19,6 @@ User clicks on the button "newer version"
     Click on a new version
 The User is on the newer version and he clicks on a bus number "18" that he want's to ride
     My Bus
-The user can click on the map to see he's/her location from the bus stop
-    Find out location
+Then User checks if any bus goes at "09:00"
+    Check for certain bus time
+

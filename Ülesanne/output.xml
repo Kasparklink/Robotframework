@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20170717 20:10:40.143" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
-<suite source="C:\RobotFramework\Ülesanne\gherkin.robot" id="s1" name="Gherkin">
+<robot generated="20170717 22:10:54.468" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="C:\Github\Robotframework\Ülesanne\gherkin.robot" id="s1" name="Gherkin">
 <test id="s1-t1" name="Looking for the bus time">
 <kw name="Given browser is opened to Home Page">
 <kw name="Open Browser To Home Page" library="resource">
@@ -10,117 +10,99 @@
 <arg>${HOMEPAGE}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20170717 20:10:40.260" level="INFO">Opening browser 'chrome' to base url 'https://www.google.ee/'</msg>
-<status status="PASS" endtime="20170717 20:10:44.236" starttime="20170717 20:10:40.260"></status>
+<msg timestamp="20170717 22:10:54.581" level="INFO">Opening browser 'chrome' to base url 'https://soiduplaan.tallinn.ee/'</msg>
+<status status="PASS" endtime="20170717 22:10:58.510" starttime="20170717 22:10:54.581"></status>
 </kw>
 <kw name="Maximize Browser Window" library="Selenium2Library">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" endtime="20170717 20:10:45.378" starttime="20170717 20:10:44.236"></status>
+<status status="PASS" endtime="20170717 22:10:59.643" starttime="20170717 22:10:58.510"></status>
 </kw>
 <kw name="Set Selenium Speed" library="Selenium2Library">
 <doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
 <arguments>
 <arg>${DELAY}</arg>
 </arguments>
-<status status="PASS" endtime="20170717 20:10:45.378" starttime="20170717 20:10:45.378"></status>
+<status status="PASS" endtime="20170717 22:10:59.643" starttime="20170717 22:10:59.643"></status>
 </kw>
-<status status="PASS" endtime="20170717 20:10:45.379" starttime="20170717 20:10:40.260"></status>
+<status status="PASS" endtime="20170717 22:10:59.643" starttime="20170717 22:10:54.581"></status>
 </kw>
-<status status="PASS" endtime="20170717 20:10:45.379" starttime="20170717 20:10:40.260"></status>
+<status status="PASS" endtime="20170717 22:10:59.643" starttime="20170717 22:10:54.580"></status>
 </kw>
-<kw name="When user types in &quot;soiduplaanid&quot; and clicks on &quot;search&quot;">
-<kw name="Google and check results" library="resource">
-<arguments>
-<arg>soiduplaanid</arg>
-<arg>https://soiduplaan.tallinn.ee/</arg>
-</arguments>
-<kw name="Input Text" library="Selenium2Library">
-<doc>Types the given `text` into text field identified by `locator`.</doc>
-<arguments>
-<arg>id=lst-ib</arg>
-<arg>${searchkey}</arg>
-</arguments>
-<msg timestamp="20170717 20:10:45.381" level="INFO">Typing text 'soiduplaanid' into text field 'id=lst-ib'</msg>
-<status status="PASS" endtime="20170717 20:10:46.992" starttime="20170717 20:10:45.381"></status>
-</kw>
-<kw name="Click Button" library="Selenium2Library">
-<doc>Clicks a button identified by `locator`.</doc>
-<arguments>
-<arg>id=_fZl</arg>
-</arguments>
-<msg timestamp="20170717 20:10:46.992" level="INFO">Clicking button 'id=_fZl'.</msg>
-<status status="PASS" endtime="20170717 20:10:49.577" starttime="20170717 20:10:46.992"></status>
-</kw>
-<kw name="Wait Until Page Contains" library="Selenium2Library">
-<doc>Waits until `text` appears on current page.</doc>
-<arguments>
-<arg>${result}</arg>
-</arguments>
-<status status="PASS" endtime="20170717 20:10:50.806" starttime="20170717 20:10:49.577"></status>
-</kw>
-<status status="PASS" endtime="20170717 20:10:50.806" starttime="20170717 20:10:45.380"></status>
-</kw>
-<status status="PASS" endtime="20170717 20:10:50.806" starttime="20170717 20:10:45.379"></status>
-</kw>
-<kw name="Then User clicks on a link and diffrent busses show up">
-<kw name="Click on a link" library="resource">
-<kw name="Click Link" library="Selenium2Library">
-<doc>Clicks a link identified by locator.</doc>
-<arguments>
-<arg>xpath=//a[@href="https://soiduplaan.tallinn.ee/"]</arg>
-</arguments>
-<msg timestamp="20170717 20:10:50.808" level="INFO">Clicking link 'xpath=//a[@href="https://soiduplaan.tallinn.ee/"]'.</msg>
-<status status="PASS" endtime="20170717 20:10:52.383" starttime="20170717 20:10:50.807"></status>
-</kw>
-<status status="PASS" endtime="20170717 20:10:52.383" starttime="20170717 20:10:50.807"></status>
-</kw>
-<status status="PASS" endtime="20170717 20:10:52.383" starttime="20170717 20:10:50.807"></status>
-</kw>
-<kw name="Then User chooses the newer version">
+<kw name="When User clicks on the button &quot;newer version&quot;">
 <kw name="Click on a new version" library="resource">
 <kw name="Click Link" library="Selenium2Library">
 <doc>Clicks a link identified by locator.</doc>
 <arguments>
 <arg>xpath=//a[@href="http://transport.tallinn.ee/index.html"]</arg>
 </arguments>
-<msg timestamp="20170717 20:10:52.384" level="INFO">Clicking link 'xpath=//a[@href="http://transport.tallinn.ee/index.html"]'.</msg>
-<status status="PASS" endtime="20170717 20:10:55.105" starttime="20170717 20:10:52.384"></status>
+<msg timestamp="20170717 22:10:59.645" level="INFO">Clicking link 'xpath=//a[@href="http://transport.tallinn.ee/index.html"]'.</msg>
+<status status="PASS" endtime="20170717 22:11:02.723" starttime="20170717 22:10:59.644"></status>
 </kw>
-<status status="PASS" endtime="20170717 20:10:55.105" starttime="20170717 20:10:52.384"></status>
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Sõiduplaanid</arg>
+</arguments>
+<msg timestamp="20170717 22:11:03.229" level="INFO">Page title is 'Sõiduplaanid'.</msg>
+<status status="PASS" endtime="20170717 22:11:03.229" starttime="20170717 22:11:02.723"></status>
 </kw>
-<status status="PASS" endtime="20170717 20:10:55.105" starttime="20170717 20:10:52.383"></status>
+<status status="PASS" endtime="20170717 22:11:03.229" starttime="20170717 22:10:59.644"></status>
 </kw>
-<kw name="When The User is in the new version he and clicks on a bus number &quot;18&quot; that he want's to ride">
+<status status="PASS" endtime="20170717 22:11:03.229" starttime="20170717 22:10:59.644"></status>
+</kw>
+<kw name="Then The User is on the newer version and he clicks on a bus number &quot;18&quot; that he want's to ride">
 <kw name="My Bus" library="resource">
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>xpath=//a[@href="#bus/18/a-b"]</arg>
 </arguments>
-<msg timestamp="20170717 20:10:55.106" level="INFO">Clicking element 'xpath=//a[@href="#bus/18/a-b"]'.</msg>
-<status status="PASS" endtime="20170717 20:10:56.227" starttime="20170717 20:10:55.106"></status>
+<msg timestamp="20170717 22:11:03.230" level="INFO">Clicking element 'xpath=//a[@href="#bus/18/a-b"]'.</msg>
+<status status="PASS" endtime="20170717 22:11:04.336" starttime="20170717 22:11:03.230"></status>
 </kw>
-<status status="PASS" endtime="20170717 20:10:56.227" starttime="20170717 20:10:55.106"></status>
-</kw>
-<status status="PASS" endtime="20170717 20:10:56.227" starttime="20170717 20:10:55.105"></status>
-</kw>
-<kw name="Then The user can click on the map to see he's/her location from the bus stop">
-<kw name="Find out location" library="resource">
-<kw name="Click Button" library="Selenium2Library">
-<doc>Clicks a button identified by `locator`.</doc>
+<kw name="Element Should Contain" library="Selenium2Library">
+<doc>Verifies element identified by `locator` contains text `expected`.</doc>
 <arguments>
-<arg>Näita kaarti</arg>
+<arg>id=spanDir1</arg>
+<arg>18Viru keskus - Laagri</arg>
 </arguments>
-<msg timestamp="20170717 20:10:56.228" level="INFO">Clicking button 'Näita kaarti'.</msg>
-<status status="PASS" endtime="20170717 20:10:58.349" starttime="20170717 20:10:56.228"></status>
+<msg timestamp="20170717 22:11:04.336" level="INFO">Verifying element 'id=spanDir1' contains text '18Viru keskus - Laagri'.</msg>
+<status status="PASS" endtime="20170717 22:11:05.371" starttime="20170717 22:11:04.336"></status>
 </kw>
-<status status="PASS" endtime="20170717 20:10:58.349" starttime="20170717 20:10:56.228"></status>
+<status status="PASS" endtime="20170717 22:11:05.371" starttime="20170717 22:11:03.230"></status>
 </kw>
-<status status="PASS" endtime="20170717 20:10:58.349" starttime="20170717 20:10:56.228"></status>
+<status status="PASS" endtime="20170717 22:11:05.371" starttime="20170717 22:11:03.229"></status>
 </kw>
-<status status="PASS" endtime="20170717 20:10:58.349" critical="yes" starttime="20170717 20:10:40.259"></status>
+<kw name="Then User checks if any bus goes at &quot;09:00&quot;">
+<kw name="Check for certain bus time" library="resource">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//a[@href="#bus/18/a-b/21211-1/22"]</arg>
+</arguments>
+<msg timestamp="20170717 22:11:05.372" level="INFO">Clicking element 'xpath=//a[@href="#bus/18/a-b/21211-1/22"]'.</msg>
+<status status="PASS" endtime="20170717 22:11:06.455" starttime="20170717 22:11:05.372"></status>
+</kw>
+<kw name="Element Should Contain" library="Selenium2Library">
+<doc>Verifies element identified by `locator` contains text `expected`.</doc>
+<arguments>
+<arg>xpath=//a[@href="#bus/18/a-b/21211-1/22"]</arg>
+<arg>9:17</arg>
+<arg>Viru keskus 1</arg>
+</arguments>
+<msg timestamp="20170717 22:11:06.455" level="INFO">Verifying element 'xpath=//a[@href="#bus/18/a-b/21211-1/22"]' contains text '9:17'.</msg>
+<status status="PASS" endtime="20170717 22:11:07.480" starttime="20170717 22:11:06.455"></status>
+</kw>
+<status status="PASS" endtime="20170717 22:11:07.480" starttime="20170717 22:11:05.372"></status>
+</kw>
+<status status="PASS" endtime="20170717 22:11:07.480" starttime="20170717 22:11:05.371"></status>
+</kw>
+<tags>
+<tag>BUS-1 BUS-2</tag>
+</tags>
+<status status="PASS" endtime="20170717 22:11:07.480" critical="yes" starttime="20170717 22:10:54.580"></status>
 </test>
-<status status="PASS" endtime="20170717 20:10:58.351" starttime="20170717 20:10:40.145"></status>
+<status status="PASS" endtime="20170717 22:11:07.482" starttime="20170717 22:10:54.471"></status>
 </suite>
 <statistics>
 <total>
@@ -128,6 +110,7 @@
 <stat fail="0" pass="1">All Tests</stat>
 </total>
 <tag>
+<stat fail="0" pass="1">BUS-1 BUS-2</stat>
 </tag>
 <suite>
 <stat fail="0" id="s1" name="Gherkin" pass="1">Gherkin</stat>
