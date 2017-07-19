@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.2 (Jython 2.7.0 on java1.8.0_131)" generated="20170719 13:30:54.977">
+<suite source="C:\Projects\autotests\src\test\robotframework\acceptance" name="Acceptance" id="s1">
+<suite source="C:\Projects\autotests\src\test\robotframework\acceptance\gherkin.robot" name="Gherkin" id="s1-s1">
+<test name="Looking for the bus time" id="s1-s1-t1">
+<kw name="Given browser is opened to Home Page">
+<kw library="resource" name="Open Browser To Home Page">
+<kw library="Selenium2Library" name="Open Browser">
+<doc>Opens a new browser instance to given URL.&lt;br&gt;</doc>
+<arguments>
+<arg>${HOMEPAGE}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:30:55.791">browserName: chrome</msg>
+<msg level="INFO" timestamp="20170719 13:30:55.793">Opening browser 'chrome' to base url 'https://soiduplaan.tallinn.ee/'</msg>
+<msg level="INFO" timestamp="20170719 13:30:59.263">Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 14238
+Only local connections are allowed.</msg>
+<status endtime="20170719 13:30:59.264" starttime="20170719 13:30:55.786" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Maximize Browser Window">
+<doc>Maximizes current browser window.&lt;br&gt;</doc>
+<status endtime="20170719 13:31:00.400" starttime="20170719 13:30:59.265" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Set Selenium Speed">
+<doc>&lt;b&gt;(NOT IMPLEMENTED)&lt;/b&gt; Sets and returns the delay in seconds that is</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status endtime="20170719 13:31:00.403" starttime="20170719 13:31:00.401" status="PASS"></status>
+</kw>
+<status endtime="20170719 13:31:00.404" starttime="20170719 13:30:55.785" status="PASS"></status>
+</kw>
+<status endtime="20170719 13:31:00.405" starttime="20170719 13:30:55.784" status="PASS"></status>
+</kw>
+<kw name="When User clicks on the button &quot;newer version&quot;">
+<kw library="resource" name="Click on a new version">
+<kw library="Selenium2Library" name="Click Link">
+<doc>Click on the link identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>xpath=//a[@href="http://transport.tallinn.ee/index.html"]</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:00.412">Clicking link 'xpath=//a[@href="http://transport.tallinn.ee/index.html"]'.</msg>
+<status endtime="20170719 13:31:01.755" starttime="20170719 13:31:00.409" status="PASS"></status>
+</kw>
+<kw library="BuiltIn" name="Sleep">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:03.758">Slept 2 seconds</msg>
+<status endtime="20170719 13:31:03.759" starttime="20170719 13:31:01.756" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Title Should Be">
+<doc>Verify the current page title is exactly &lt;b&gt;title&lt;/b&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;title&lt;/b&gt;&amp;nbsp;The title to verify.&lt;br&gt;&lt;br&gt;&lt;b&gt;See Also:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Title Should Not Be`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Title Should Contain`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Title Should Not Contain`&lt;br&gt;</doc>
+<arguments>
+<arg>Sõiduplaanid</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:03.769">Page title is 'S\xf5iduplaanid'.</msg>
+<status endtime="20170719 13:31:03.770" starttime="20170719 13:31:03.760" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Element Should Contain">
+<doc>Verify the element identified by &lt;b&gt;locator&lt;/b&gt; contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>id=divContentRoutesResults</arg>
+<arg>Viru keskus - Viimsi keskus</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:04.135">Element Should Contain: Viru keskus - Viimsi keskus =&gt; OK</msg>
+<status endtime="20170719 13:31:04.136" starttime="20170719 13:31:03.771" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Element Should Contain">
+<doc>Verify the element identified by &lt;b&gt;locator&lt;/b&gt; contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>id=divContentRoutesResults</arg>
+<arg>Mõigu - Reisisadam (A-terminal)</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:04.489">Element Should Contain: M\xf5igu - Reisisadam (A-terminal) =&gt; OK</msg>
+<status endtime="20170719 13:31:04.490" starttime="20170719 13:31:04.137" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Element Should Contain">
+<doc>Verify the element identified by &lt;b&gt;locator&lt;/b&gt; contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>id=divContentRoutesResults</arg>
+<arg>Veerenni - Randla</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:04.852">Element Should Contain: Veerenni - Randla =&gt; OK</msg>
+<status endtime="20170719 13:31:04.853" starttime="20170719 13:31:04.491" status="PASS"></status>
+</kw>
+<status endtime="20170719 13:31:04.854" starttime="20170719 13:31:00.407" status="PASS"></status>
+</kw>
+<status endtime="20170719 13:31:04.855" starttime="20170719 13:31:00.406" status="PASS"></status>
+</kw>
+<kw name="Then The User is on the newer version and he clicks on a bus number &quot;18&quot; that he want's to ride">
+<kw library="resource" name="My Bus">
+<kw library="Selenium2Library" name="Click Element">
+<doc>Click on the element identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>xpath=//a[@href="#bus/18/a-b"]</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:04.861">Clicking element 'xpath=//a[@href="#bus/18/a-b"]'.</msg>
+<status endtime="20170719 13:31:04.972" starttime="20170719 13:31:04.859" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Element Should Contain">
+<doc>Verify the element identified by &lt;b&gt;locator&lt;/b&gt; contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>id=spanDir1</arg>
+<arg>18Viru keskus - Laagri</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:05.031">Element Should Contain: 18Viru keskus - Laagri =&gt; OK</msg>
+<status endtime="20170719 13:31:05.033" starttime="20170719 13:31:04.973" status="PASS"></status>
+</kw>
+<status endtime="20170719 13:31:05.034" starttime="20170719 13:31:04.857" status="PASS"></status>
+</kw>
+<status endtime="20170719 13:31:05.036" starttime="20170719 13:31:04.856" status="PASS"></status>
+</kw>
+<kw name="Then User checks if any bus goes at &quot;09:17&quot;">
+<kw library="resource" name="Check for certain bus time">
+<kw library="Selenium2Library" name="Click Element">
+<doc>Click on the element identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>xpath=//a[@href="#bus/18/a-b/21211-1/22"]</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:05.043">Clicking element 'xpath=//a[@href="#bus/18/a-b/21211-1/22"]'.</msg>
+<status endtime="20170719 13:31:05.128" starttime="20170719 13:31:05.039" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Element Should Contain">
+<doc>Verify the element identified by &lt;b&gt;locator&lt;/b&gt; contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>xpath=//a[@href="#bus/18/a-b/21211-1/22"]</arg>
+<arg>9:17</arg>
+<arg>Viru keskus 1</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:05.178">Element Should Contain: 9:17 =&gt; OK</msg>
+<status endtime="20170719 13:31:05.179" starttime="20170719 13:31:05.130" status="PASS"></status>
+</kw>
+<kw library="BuiltIn" name="Sleep">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:07.181">Slept 2 seconds</msg>
+<status endtime="20170719 13:31:07.182" starttime="20170719 13:31:05.180" status="PASS"></status>
+</kw>
+<status endtime="20170719 13:31:07.183" starttime="20170719 13:31:05.038" status="PASS"></status>
+</kw>
+<status endtime="20170719 13:31:07.184" starttime="20170719 13:31:05.037" status="PASS"></status>
+</kw>
+<kw name="Then User goes back to Home Page and adds busses to favorites">
+<kw library="resource" name="Back to Homepage">
+<kw library="Selenium2Library" name="Click Element">
+<doc>Click on the element identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>//*[@id="mainMenu"]/ul/li[1]/a</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:07.190">Clicking element '//*[@id="mainMenu"]/ul/li[1]/a'.</msg>
+<status endtime="20170719 13:31:07.252" starttime="20170719 13:31:07.187" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Click Button">
+<doc>Click on the button identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>//*[@id="tblRoutes"]/tbody/tr[1]/td[4]/button</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:07.255">Clicking button '//*[@id="tblRoutes"]/tbody/tr[1]/td[4]/button'.</msg>
+<status endtime="20170719 13:31:07.429" starttime="20170719 13:31:07.253" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Click Button">
+<doc>Click on the button identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>//*[@id="tblRoutes"]/tbody/tr[19]/td[4]/button</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:07.433">Clicking button '//*[@id="tblRoutes"]/tbody/tr[19]/td[4]/button'.</msg>
+<status endtime="20170719 13:31:07.531" starttime="20170719 13:31:07.430" status="PASS"></status>
+</kw>
+<status endtime="20170719 13:31:07.532" starttime="20170719 13:31:07.186" status="PASS"></status>
+</kw>
+<status endtime="20170719 13:31:07.533" starttime="20170719 13:31:07.185" status="PASS"></status>
+</kw>
+<kw name="Then User goes to favorites page">
+<kw library="resource" name="Go to Favorites">
+<kw library="Selenium2Library" name="Click Element">
+<doc>Click on the element identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>id=menuFavourites</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:07.539">Clicking element 'id=menuFavourites'.</msg>
+<status endtime="20170719 13:31:07.622" starttime="20170719 13:31:07.536" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Element Should Contain">
+<doc>Verify the element identified by &lt;b&gt;locator&lt;/b&gt; contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>id=favourites</arg>
+<arg>Viru keskus - Laagri</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:07.666">Element Should Contain: Viru keskus - Laagri =&gt; OK</msg>
+<status endtime="20170719 13:31:07.667" starttime="20170719 13:31:07.623" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Element Should Contain">
+<doc>Verify the element identified by &lt;b&gt;locator&lt;/b&gt; contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>id=favourites</arg>
+<arg>Viru keskus - Viimsi keskus</arg>
+</arguments>
+<msg level="INFO" timestamp="20170719 13:31:07.689">Element Should Contain: Viru keskus - Viimsi keskus =&gt; OK</msg>
+<status endtime="20170719 13:31:07.690" starttime="20170719 13:31:07.668" status="PASS"></status>
+</kw>
+<status endtime="20170719 13:31:07.691" starttime="20170719 13:31:07.535" status="PASS"></status>
+</kw>
+<status endtime="20170719 13:31:07.691" starttime="20170719 13:31:07.534" status="PASS"></status>
+</kw>
+<tags>
+<tag>BUS-1 BUS-2</tag>
+</tags>
+<status critical="yes" endtime="20170719 13:31:07.692" starttime="20170719 13:30:55.781" status="PASS"></status>
+</test>
+<status endtime="20170719 13:31:07.696" starttime="20170719 13:30:55.171" status="PASS"></status>
+</suite>
+<status endtime="20170719 13:31:07.704" starttime="20170719 13:30:54.988" status="PASS"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">BUS-1 BUS-2</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" name="Acceptance" id="s1">Acceptance</stat>
+<stat pass="1" fail="0" name="Gherkin" id="s1-s1">Acceptance.Gherkin</stat>
+</suite>
+</statistics>
+<errors>
+<msg level="ERROR" timestamp="20170719 13:30:55.775">Error in file 'C:\Projects\autotests\src\test\robotframework\acceptance\gherkin.robot': Importing test library 'Selenium2library' failed: ImportError: No module named Selenium2library
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Lemonz\.m2\repository\org\robotframework\robotframework\3.0.2\Lib
+  C:\Users\Lemonz\.m2\repository\org\robotframework\robotframework\3.0.2\robotframework-3.0.2.jar\Lib
+  __classpath__
+  __pyclasspath__/
+CLASSPATH:
+  C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar
+  C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.5\lib\idea_rt.jar</msg>
+</errors>
+</robot>

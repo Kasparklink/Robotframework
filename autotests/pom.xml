@@ -1,0 +1,38 @@
+<project>
+    <groupId>autotest</groupId>
+    <artifactId>autotest</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modelVersion>4.0.0</modelVersion>
+    <name>Autotest</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.robotframework</groupId>
+            <artifactId>robotframework</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.markusbernhardt</groupId>
+            <artifactId>robotframework-selenium2library-java</artifactId>
+            <version>1.4.0.8</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.robotframework</groupId>
+                <artifactId>robotframework-maven-plugin</artifactId>
+                <version>1.4.7</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
