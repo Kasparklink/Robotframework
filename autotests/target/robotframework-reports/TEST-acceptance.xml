@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite failures="0" skip="0" tests="3" name="Acceptance" errors="0">
-<testcase classname="Acceptance.Gherkin" name="Opening a page for busses time" time="9">
+<testcase classname="Acceptance.Gherkin" name="Opening a page for busses time" time="11">
 </testcase>
-<testcase classname="Acceptance.Gherkin" name="Checking for a specific bus time" time="7">
+<testcase classname="Acceptance.Gherkin" name="Checking for a specific bus time" time="9">
 </testcase>
-<testcase classname="Acceptance.Gherkin" name="Adding certain busses to favorites" time="7">
+<testcase classname="Acceptance.Gherkin" name="Adding certain busses to favorites" time="10">
 </testcase>
 </testsuite>

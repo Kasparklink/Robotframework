@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.0.2 (Jython 2.7.0 on java1.8.0_131)" generated="20170720 15:05:51.332">
+<robot generator="Robot 3.0.2 (Jython 2.7.0 on java1.8.0_131)" generated="20170720 15:09:19.006">
 <suite source="C:\Github\autotests\src\test\robotframework\acceptance" name="Acceptance" id="s1">
 <suite source="C:\Github\autotests\src\test\robotframework\acceptance\gherkin.robot" name="Gherkin" id="s1-s1">
 <test name="Opening a page for busses time" id="s1-s1-t1">
@@ -11,26 +11,26 @@
 <arg>${HOMEPAGE}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:05:52.164">browserName: chrome</msg>
-<msg level="INFO" timestamp="20170720 15:05:52.167">Opening browser 'chrome' to base url 'https://soiduplaan.tallinn.ee/'</msg>
-<msg level="INFO" timestamp="20170720 15:05:55.728">Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 46549
+<msg level="INFO" timestamp="20170720 15:09:19.813">browserName: chrome</msg>
+<msg level="INFO" timestamp="20170720 15:09:19.814">Opening browser 'chrome' to base url 'https://soiduplaan.tallinn.ee/'</msg>
+<msg level="INFO" timestamp="20170720 15:09:23.312">Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 10894
 Only local connections are allowed.</msg>
-<status endtime="20170720 15:05:55.729" starttime="20170720 15:05:52.158" status="PASS"></status>
+<status endtime="20170720 15:09:23.314" starttime="20170720 15:09:19.807" status="PASS"></status>
 </kw>
 <kw library="Selenium2Library" name="Maximize Browser Window">
 <doc>Maximizes current browser window.&lt;br&gt;</doc>
-<status endtime="20170720 15:05:56.868" starttime="20170720 15:05:55.729" status="PASS"></status>
+<status endtime="20170720 15:09:24.455" starttime="20170720 15:09:23.315" status="PASS"></status>
 </kw>
 <kw library="Selenium2Library" name="Set Selenium Speed">
 <doc>&lt;b&gt;(NOT IMPLEMENTED)&lt;/b&gt; Sets and returns the delay in seconds that is</doc>
 <arguments>
 <arg>${DELAY}</arg>
 </arguments>
-<status endtime="20170720 15:05:56.871" starttime="20170720 15:05:56.869" status="PASS"></status>
+<status endtime="20170720 15:09:24.459" starttime="20170720 15:09:24.456" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:05:56.872" starttime="20170720 15:05:52.157" status="PASS"></status>
+<status endtime="20170720 15:09:24.460" starttime="20170720 15:09:19.805" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:05:56.873" starttime="20170720 15:05:52.155" status="PASS"></status>
+<status endtime="20170720 15:09:24.461" starttime="20170720 15:09:19.803" status="PASS"></status>
 </kw>
 <kw name="When User clicks on the button &quot;newer version&quot;">
 <kw library="resource" name="Click on a new version">
@@ -39,20 +39,20 @@ Only local connections are allowed.</msg>
 <arguments>
 <arg>xpath=//a[@href="http://transport.tallinn.ee/index.html"]</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:05:56.878">Clicking link 'xpath=//a[@href="http://transport.tallinn.ee/index.html"]'.</msg>
-<status endtime="20170720 15:05:58.111" starttime="20170720 15:05:56.876" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:24.468">Clicking link 'xpath=//a[@href="http://transport.tallinn.ee/index.html"]'.</msg>
+<status endtime="20170720 15:09:27.979" starttime="20170720 15:09:24.465" status="PASS"></status>
 </kw>
 <kw library="BuiltIn" name="Sleep">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:00.114">Slept 2 seconds</msg>
-<status endtime="20170720 15:06:00.116" starttime="20170720 15:05:58.112" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:29.982">Slept 2 seconds</msg>
+<status endtime="20170720 15:09:29.983" starttime="20170720 15:09:27.980" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:00.118" starttime="20170720 15:05:56.875" status="PASS"></status>
+<status endtime="20170720 15:09:29.984" starttime="20170720 15:09:24.464" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:00.119" starttime="20170720 15:05:56.874" status="PASS"></status>
+<status endtime="20170720 15:09:29.985" starttime="20170720 15:09:24.462" status="PASS"></status>
 </kw>
 <kw name="Then User checks if he's in the right page">
 <kw library="resource" name="Check page">
@@ -61,8 +61,8 @@ Only local connections are allowed.</msg>
 <arguments>
 <arg>Sõiduplaanid</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:00.133">Page title is 'S\xf5iduplaanid'.</msg>
-<status endtime="20170720 15:06:00.134" starttime="20170720 15:06:00.123" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:29.998">Page title is 'S\xf5iduplaanid'.</msg>
+<status endtime="20170720 15:09:29.999" starttime="20170720 15:09:29.988" status="PASS"></status>
 </kw>
 <kw library="Selenium2Library" name="Element Should Contain">
 <doc>Verify the element identified by &lt;b&gt;locator&lt;/b&gt; contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
@@ -70,8 +70,8 @@ Only local connections are allowed.</msg>
 <arg>id=divContentRoutesResults</arg>
 <arg>Viru keskus - Viimsi keskus</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:00.510">Element Should Contain: Viru keskus - Viimsi keskus =&gt; OK</msg>
-<status endtime="20170720 15:06:00.511" starttime="20170720 15:06:00.135" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:30.369">Element Should Contain: Viru keskus - Viimsi keskus =&gt; OK</msg>
+<status endtime="20170720 15:09:30.370" starttime="20170720 15:09:30.000" status="PASS"></status>
 </kw>
 <kw library="Selenium2Library" name="Element Should Contain">
 <doc>Verify the element identified by &lt;b&gt;locator&lt;/b&gt; contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
@@ -79,8 +79,8 @@ Only local connections are allowed.</msg>
 <arg>id=divContentRoutesResults</arg>
 <arg>Mõigu - Reisisadam (A-terminal)</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:00.868">Element Should Contain: M\xf5igu - Reisisadam (A-terminal) =&gt; OK</msg>
-<status endtime="20170720 15:06:00.869" starttime="20170720 15:06:00.512" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:30.719">Element Should Contain: M\xf5igu - Reisisadam (A-terminal) =&gt; OK</msg>
+<status endtime="20170720 15:09:30.720" starttime="20170720 15:09:30.371" status="PASS"></status>
 </kw>
 <kw library="Selenium2Library" name="Element Should Contain">
 <doc>Verify the element identified by &lt;b&gt;locator&lt;/b&gt; contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
@@ -88,14 +88,14 @@ Only local connections are allowed.</msg>
 <arg>id=divContentRoutesResults</arg>
 <arg>Veerenni - Randla</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:01.213">Element Should Contain: Veerenni - Randla =&gt; OK</msg>
-<status endtime="20170720 15:06:01.214" starttime="20170720 15:06:00.870" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:31.064">Element Should Contain: Veerenni - Randla =&gt; OK</msg>
+<status endtime="20170720 15:09:31.066" starttime="20170720 15:09:30.721" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:01.215" starttime="20170720 15:06:00.122" status="PASS"></status>
+<status endtime="20170720 15:09:31.067" starttime="20170720 15:09:29.987" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:01.216" starttime="20170720 15:06:00.120" status="PASS"></status>
+<status endtime="20170720 15:09:31.068" starttime="20170720 15:09:29.986" status="PASS"></status>
 </kw>
-<status critical="yes" endtime="20170720 15:06:01.217" starttime="20170720 15:05:52.151" status="PASS"></status>
+<status critical="yes" endtime="20170720 15:09:31.069" starttime="20170720 15:09:19.800" status="PASS"></status>
 </test>
 <test name="Checking for a specific bus time" id="s1-s1-t2">
 <kw name="Given browser in the newer version">
@@ -106,26 +106,26 @@ Only local connections are allowed.</msg>
 <arg>${SiteUrl}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:01.232">browserName: chrome</msg>
-<msg level="INFO" timestamp="20170720 15:06:01.234">Opening browser 'chrome' to base url 'https://transport.tallinn.ee/index.html'</msg>
-<msg level="INFO" timestamp="20170720 15:06:04.789">Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 62573
+<msg level="INFO" timestamp="20170720 15:09:31.078">browserName: chrome</msg>
+<msg level="INFO" timestamp="20170720 15:09:31.080">Opening browser 'chrome' to base url 'https://transport.tallinn.ee/index.html'</msg>
+<msg level="INFO" timestamp="20170720 15:09:36.201">Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 33104
 Only local connections are allowed.</msg>
-<status endtime="20170720 15:06:04.790" starttime="20170720 15:06:01.226" status="PASS"></status>
+<status endtime="20170720 15:09:36.202" starttime="20170720 15:09:31.075" status="PASS"></status>
 </kw>
 <kw library="Selenium2Library" name="Maximize Browser Window">
 <doc>Maximizes current browser window.&lt;br&gt;</doc>
-<status endtime="20170720 15:06:05.926" starttime="20170720 15:06:04.791" status="PASS"></status>
+<status endtime="20170720 15:09:37.340" starttime="20170720 15:09:36.202" status="PASS"></status>
 </kw>
 <kw library="Selenium2Library" name="Set Selenium Speed">
 <doc>&lt;b&gt;(NOT IMPLEMENTED)&lt;/b&gt; Sets and returns the delay in seconds that is</doc>
 <arguments>
 <arg>${DELAY}</arg>
 </arguments>
-<status endtime="20170720 15:06:05.929" starttime="20170720 15:06:05.927" status="PASS"></status>
+<status endtime="20170720 15:09:37.345" starttime="20170720 15:09:37.342" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:05.929" starttime="20170720 15:06:01.223" status="PASS"></status>
+<status endtime="20170720 15:09:37.346" starttime="20170720 15:09:31.074" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:05.930" starttime="20170720 15:06:01.221" status="PASS"></status>
+<status endtime="20170720 15:09:37.347" starttime="20170720 15:09:31.072" status="PASS"></status>
 </kw>
 <kw name="When User is in the newer version he clicks on a bus number &quot;18&quot; that he want's to ride">
 <kw library="resource" name="My Bus">
@@ -134,8 +134,8 @@ Only local connections are allowed.</msg>
 <arguments>
 <arg>xpath=//a[@href="#bus/18/a-b"]</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:05.936">Clicking element 'xpath=//a[@href="#bus/18/a-b"]'.</msg>
-<status endtime="20170720 15:06:06.048" starttime="20170720 15:06:05.933" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:37.354">Clicking element 'xpath=//a[@href="#bus/18/a-b"]'.</msg>
+<status endtime="20170720 15:09:37.465" starttime="20170720 15:09:37.351" status="PASS"></status>
 </kw>
 <kw library="Selenium2Library" name="Element Should Contain">
 <doc>Verify the element identified by &lt;b&gt;locator&lt;/b&gt; contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
@@ -143,12 +143,12 @@ Only local connections are allowed.</msg>
 <arg>id=spanDir1</arg>
 <arg>18Viru keskus - Laagri</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:06.103">Element Should Contain: 18Viru keskus - Laagri =&gt; OK</msg>
-<status endtime="20170720 15:06:06.104" starttime="20170720 15:06:06.049" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:37.527">Element Should Contain: 18Viru keskus - Laagri =&gt; OK</msg>
+<status endtime="20170720 15:09:37.528" starttime="20170720 15:09:37.466" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:06.105" starttime="20170720 15:06:05.932" status="PASS"></status>
+<status endtime="20170720 15:09:37.529" starttime="20170720 15:09:37.350" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:06.105" starttime="20170720 15:06:05.931" status="PASS"></status>
+<status endtime="20170720 15:09:37.530" starttime="20170720 15:09:37.349" status="PASS"></status>
 </kw>
 <kw name="Then User checks if any bus goes at &quot;09:17&quot;">
 <kw library="resource" name="Check for certain bus time">
@@ -157,8 +157,8 @@ Only local connections are allowed.</msg>
 <arguments>
 <arg>xpath=//a[@href="#bus/18/a-b/21211-1/22"]</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:06.110">Clicking element 'xpath=//a[@href="#bus/18/a-b/21211-1/22"]'.</msg>
-<status endtime="20170720 15:06:06.189" starttime="20170720 15:06:06.108" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:37.535">Clicking element 'xpath=//a[@href="#bus/18/a-b/21211-1/22"]'.</msg>
+<status endtime="20170720 15:09:37.616" starttime="20170720 15:09:37.533" status="PASS"></status>
 </kw>
 <kw library="Selenium2Library" name="Element Should Contain">
 <doc>Verify the element identified by &lt;b&gt;locator&lt;/b&gt; contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
@@ -167,22 +167,22 @@ Only local connections are allowed.</msg>
 <arg>9:17</arg>
 <arg>Viru keskus 1</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:06.233">Element Should Contain: 9:17 =&gt; OK</msg>
-<status endtime="20170720 15:06:06.234" starttime="20170720 15:06:06.190" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:37.661">Element Should Contain: 9:17 =&gt; OK</msg>
+<status endtime="20170720 15:09:37.662" starttime="20170720 15:09:37.617" status="PASS"></status>
 </kw>
 <kw library="BuiltIn" name="Sleep">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:08.237">Slept 2 seconds</msg>
-<status endtime="20170720 15:06:08.238" starttime="20170720 15:06:06.235" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:39.665">Slept 2 seconds</msg>
+<status endtime="20170720 15:09:39.665" starttime="20170720 15:09:37.663" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:08.238" starttime="20170720 15:06:06.107" status="PASS"></status>
+<status endtime="20170720 15:09:39.666" starttime="20170720 15:09:37.532" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:08.239" starttime="20170720 15:06:06.106" status="PASS"></status>
+<status endtime="20170720 15:09:39.666" starttime="20170720 15:09:37.530" status="PASS"></status>
 </kw>
-<status critical="yes" endtime="20170720 15:06:08.240" starttime="20170720 15:06:01.218" status="PASS"></status>
+<status critical="yes" endtime="20170720 15:09:39.667" starttime="20170720 15:09:31.070" status="PASS"></status>
 </test>
 <test name="Adding certain busses to favorites" id="s1-s1-t3">
 <kw name="Given browser in the newer version">
@@ -193,26 +193,26 @@ Only local connections are allowed.</msg>
 <arg>${SiteUrl}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:08.247">browserName: chrome</msg>
-<msg level="INFO" timestamp="20170720 15:06:08.249">Opening browser 'chrome' to base url 'https://transport.tallinn.ee/index.html'</msg>
-<msg level="INFO" timestamp="20170720 15:06:12.499">Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 43475
+<msg level="INFO" timestamp="20170720 15:09:39.678">browserName: chrome</msg>
+<msg level="INFO" timestamp="20170720 15:09:39.680">Opening browser 'chrome' to base url 'https://transport.tallinn.ee/index.html'</msg>
+<msg level="INFO" timestamp="20170720 15:09:47.164">Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 14533
 Only local connections are allowed.</msg>
-<status endtime="20170720 15:06:12.500" starttime="20170720 15:06:08.244" status="PASS"></status>
+<status endtime="20170720 15:09:47.165" starttime="20170720 15:09:39.674" status="PASS"></status>
 </kw>
 <kw library="Selenium2Library" name="Maximize Browser Window">
 <doc>Maximizes current browser window.&lt;br&gt;</doc>
-<status endtime="20170720 15:06:13.637" starttime="20170720 15:06:12.501" status="PASS"></status>
+<status endtime="20170720 15:09:48.301" starttime="20170720 15:09:47.165" status="PASS"></status>
 </kw>
 <kw library="Selenium2Library" name="Set Selenium Speed">
 <doc>&lt;b&gt;(NOT IMPLEMENTED)&lt;/b&gt; Sets and returns the delay in seconds that is</doc>
 <arguments>
 <arg>${DELAY}</arg>
 </arguments>
-<status endtime="20170720 15:06:13.639" starttime="20170720 15:06:13.637" status="PASS"></status>
+<status endtime="20170720 15:09:48.304" starttime="20170720 15:09:48.302" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:13.639" starttime="20170720 15:06:08.243" status="PASS"></status>
+<status endtime="20170720 15:09:48.305" starttime="20170720 15:09:39.673" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:13.640" starttime="20170720 15:06:08.242" status="PASS"></status>
+<status endtime="20170720 15:09:48.305" starttime="20170720 15:09:39.671" status="PASS"></status>
 </kw>
 <kw name="When User clicks on the favorite button to add his busses to favorites">
 <kw library="resource" name="Add favorites">
@@ -221,28 +221,28 @@ Only local connections are allowed.</msg>
 <arguments>
 <arg>//*[@id="tblRoutes"]/tbody/tr[1]/td[4]/button</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:13.645">Clicking button '//*[@id="tblRoutes"]/tbody/tr[1]/td[4]/button'.</msg>
-<status endtime="20170720 15:06:13.746" starttime="20170720 15:06:13.643" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:48.313">Clicking button '//*[@id="tblRoutes"]/tbody/tr[1]/td[4]/button'.</msg>
+<status endtime="20170720 15:09:48.404" starttime="20170720 15:09:48.310" status="PASS"></status>
 </kw>
 <kw library="Selenium2Library" name="Click Button">
 <doc>Click on the button identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;</doc>
 <arguments>
 <arg>//*[@id="tblRoutes"]/tbody/tr[19]/td[4]/button</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:13.748">Clicking button '//*[@id="tblRoutes"]/tbody/tr[19]/td[4]/button'.</msg>
-<status endtime="20170720 15:06:13.829" starttime="20170720 15:06:13.746" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:48.407">Clicking button '//*[@id="tblRoutes"]/tbody/tr[19]/td[4]/button'.</msg>
+<status endtime="20170720 15:09:48.508" starttime="20170720 15:09:48.405" status="PASS"></status>
 </kw>
 <kw library="BuiltIn" name="Sleep">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:14.831">Slept 1 second</msg>
-<status endtime="20170720 15:06:14.832" starttime="20170720 15:06:13.830" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:49.511">Slept 1 second</msg>
+<status endtime="20170720 15:09:49.512" starttime="20170720 15:09:48.509" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:14.832" starttime="20170720 15:06:13.641" status="PASS"></status>
+<status endtime="20170720 15:09:49.513" starttime="20170720 15:09:48.308" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:14.833" starttime="20170720 15:06:13.641" status="PASS"></status>
+<status endtime="20170720 15:09:49.514" starttime="20170720 15:09:48.307" status="PASS"></status>
 </kw>
 <kw name="Then User goes to favorites and checks if they're there">
 <kw library="resource" name="Go to Favorites">
@@ -251,8 +251,8 @@ Only local connections are allowed.</msg>
 <arguments>
 <arg>id=menuFavourites</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:14.838">Clicking element 'id=menuFavourites'.</msg>
-<status endtime="20170720 15:06:14.913" starttime="20170720 15:06:14.836" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:49.519">Clicking element 'id=menuFavourites'.</msg>
+<status endtime="20170720 15:09:49.596" starttime="20170720 15:09:49.517" status="PASS"></status>
 </kw>
 <kw library="Selenium2Library" name="Element Should Contain">
 <doc>Verify the element identified by &lt;b&gt;locator&lt;/b&gt; contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
@@ -260,8 +260,8 @@ Only local connections are allowed.</msg>
 <arg>id=favourites</arg>
 <arg>Viru keskus - Laagri</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:14.970">Element Should Contain: Viru keskus - Laagri =&gt; OK</msg>
-<status endtime="20170720 15:06:14.971" starttime="20170720 15:06:14.915" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:49.649">Element Should Contain: Viru keskus - Laagri =&gt; OK</msg>
+<status endtime="20170720 15:09:49.651" starttime="20170720 15:09:49.597" status="PASS"></status>
 </kw>
 <kw library="Selenium2Library" name="Element Should Contain">
 <doc>Verify the element identified by &lt;b&gt;locator&lt;/b&gt; contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
@@ -269,18 +269,18 @@ Only local connections are allowed.</msg>
 <arg>id=favourites</arg>
 <arg>Viru keskus - Viimsi keskus</arg>
 </arguments>
-<msg level="INFO" timestamp="20170720 15:06:14.994">Element Should Contain: Viru keskus - Viimsi keskus =&gt; OK</msg>
-<status endtime="20170720 15:06:14.995" starttime="20170720 15:06:14.971" status="PASS"></status>
+<msg level="INFO" timestamp="20170720 15:09:49.673">Element Should Contain: Viru keskus - Viimsi keskus =&gt; OK</msg>
+<status endtime="20170720 15:09:49.674" starttime="20170720 15:09:49.651" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:14.996" starttime="20170720 15:06:14.835" status="PASS"></status>
+<status endtime="20170720 15:09:49.674" starttime="20170720 15:09:49.516" status="PASS"></status>
 </kw>
-<status endtime="20170720 15:06:14.997" starttime="20170720 15:06:14.834" status="PASS"></status>
+<status endtime="20170720 15:09:49.675" starttime="20170720 15:09:49.515" status="PASS"></status>
 </kw>
-<status critical="yes" endtime="20170720 15:06:14.997" starttime="20170720 15:06:08.241" status="PASS"></status>
+<status critical="yes" endtime="20170720 15:09:49.675" starttime="20170720 15:09:39.669" status="PASS"></status>
 </test>
-<status endtime="20170720 15:06:15.003" starttime="20170720 15:05:51.523" status="PASS"></status>
+<status endtime="20170720 15:09:49.682" starttime="20170720 15:09:19.183" status="PASS"></status>
 </suite>
-<status endtime="20170720 15:06:15.019" starttime="20170720 15:05:51.343" status="PASS"></status>
+<status endtime="20170720 15:09:49.697" starttime="20170720 15:09:19.016" status="PASS"></status>
 </suite>
 <statistics>
 <total>
@@ -295,7 +295,7 @@ Only local connections are allowed.</msg>
 </suite>
 </statistics>
 <errors>
-<msg level="ERROR" timestamp="20170720 15:05:52.144">Error in file 'C:\Github\autotests\src\test\robotframework\acceptance\gherkin.robot': Importing test library 'Selenium2library' failed: ImportError: No module named Selenium2library
+<msg level="ERROR" timestamp="20170720 15:09:19.795">Error in file 'C:\Github\autotests\src\test\robotframework\acceptance\gherkin.robot': Importing test library 'Selenium2library' failed: ImportError: No module named Selenium2library
 Traceback (most recent call last):
   None
 PYTHONPATH:
