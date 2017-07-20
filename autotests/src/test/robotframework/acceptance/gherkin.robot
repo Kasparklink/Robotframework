@@ -1,10 +1,6 @@
 *** Settings ***
 Library           Selenium2Library
 Resource          resource.robot
-Library           DateTime
-
-Library   Selenium2library
-Resource   resource.robot
 
 *** Test Cases ***
 Opening a page for busses time
