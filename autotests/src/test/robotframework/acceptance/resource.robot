@@ -26,9 +26,11 @@ Add favorites
     Click Button  //*[@id="tblRoutes"]/tbody/tr[1]/td[4]/button
     Click Button  //*[@id="tblRoutes"]/tbody/tr[19]/td[4]/button
     Sleep  1s
-Check for certain bus time
-    Click Element      xpath=//a[@href="#bus/18/a-b/21211-1/22"]
-    Element should contain   xpath=//a[@href="#bus/18/a-b/21211-1/22"]  9:17  Viru keskus 1
+Check for bus times
+    Element should contain  id=divScheduleContentInner  Tööpäev
+    Element should contain  id=divScheduleContentInner  8 05
+    Element should contain  id=divScheduleContentInner  9 00
+    Element should contain  id=divScheduleContentInner  10 08
     Sleep  2s
 
 Find out location
